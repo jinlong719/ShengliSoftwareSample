@@ -1,0 +1,6 @@
+framework module Pods_ShengliSoft {
+  umbrella header "Pods-ShengliSoft-umbrella.h"
+
+  export *
+  module * { export * }
+}

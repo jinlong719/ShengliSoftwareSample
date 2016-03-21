@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "QuoteListNews.client(TCPClient, receivedData : NSData) -&gt; ():QuoteListNews.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "reloadViewController.tableView">
+            </PersistentString>
+            <PersistentString
+               value = "self.stateOfReceived">
+            </PersistentString>
+            <PersistentString
+               value = "self.sizeOfQuote">
+            </PersistentString>
+            <PersistentString
+               value = "self.guInfos">
+            </PersistentString>
+            <PersistentString
+               value = "reloadViewController.guDatas">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuPiaoMuLuTableVC.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:GuPiaoMuLuTableVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.initButton() -&gt; ():GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrnW">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginVC.(client(LoginVC) -&gt; (TCPClient, receivedData : NSData) -&gt; ()).(closure #1):LoginVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SignUpVC.signupBtn(UIButton) -&gt; ():SignUpVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ZiXuanGuVC.loadList(NSNotification) -&gt; ():ZiXuanGuVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HuShenMainVC.loadList(NSNotification) -&gt; ():HuShenMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midDetailedValues">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MultipleTableDataGetting.toStock(NSData) -&gt; MultipleTableDataGetting.valOfStock:MultipleTableDataGetting.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.viewWillAppear(Bool) -&gt; ():GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midLEV2Data">
+            </PersistentString>
+            <PersistentString
+               value = "midKcharData">
+            </PersistentString>
+            <PersistentString
+               value = "midSumData">
+            </PersistentString>
+            <PersistentString
+               value = "midTimeSaleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailData.sendingData() -&gt; ():GuDetailData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midSumData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HuShenMainVC.dispRelatedValue() -&gt; ():HuShenMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.relatedData[0].udValue">
+            </PersistentString>
+            <PersistentString
+               value = "Double(self.relatedData[0].udValue)/100">
+            </PersistentString>
+            <PersistentString
+               value = "Double(self.relatedData[0].udRate)/100">
+            </PersistentString>
+            <PersistentString
+               value = "self.relatedData">
+            </PersistentString>
+            <PersistentString
+               value = "self.relatedData[0].marketIndex">
+            </PersistentString>
+            <PersistentString
+               value = "float_t(self.relatedData[0].marketIndex) / 100">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ZiXuanGuVC.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:ZiXuanGuVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "midData">
+            </PersistentString>
+            <PersistentString
+               value = "sessionIDD">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailData.(client(GuDetailData) -&gt; (TCPClient, receivedData : NSData) -&gt; ()).(closure #1):GuDetailData.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midKchartData">
+            </PersistentString>
+            <PersistentString
+               value = "midTimeSaleData">
+            </PersistentString>
+            <PersistentString
+               value = "self.numOfTimeSale">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HuShenGuDetailVC.backBtn(UIBarButtonItem) -&gt; ():HuShenGuDetailVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.gettingGuDataFromServer() -&gt; ():GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.guDetailData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginVC.client(TCPClient, receivedData : NSData) -&gt; ():LoginVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.wasChecked">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.refreshing() -&gt; ():GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.shouldRefresh">
+            </PersistentString>
+            <PersistentString
+               value = "midSumData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ZiXuanGuVC.getZXG(NSNotification) -&gt; ():ZiXuanGuVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midData">
+            </PersistentString>
+            <PersistentString
+               value = "sessionIDD">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ZiXuanMainViewController.willMoveToPage(UIViewController, index : Int) -&gt; ():ZiXuanMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HuShenGuDetailVC.tableViewWithType(MultiTableViewType, didSelectRowAtIndexPath : NSIndexPath!) -&gt; ():HuShenGuDetailVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentNavigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HuShenDataView.client(TCPClient, receivedData : NSData) -&gt; ():HuShenDataView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timeSaleTableView">
+            </PersistentString>
+            <PersistentString
+               value = "timeSaleTableView.tag">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QuoteListNews.quoteListOfNews() -&gt; [QuoteListNews.newsOfQuote]:QuoteListNews.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailData.client(TCPClient, receivedData : NSData) -&gt; ():GuDetailData.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.loadList(NSNotification) -&gt; ():GuDetailMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.yData">
+            </PersistentString>
+            <PersistentString
+               value = "self.xData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OneGuGetting.sendData(Int8, sID : String, secureType : Int8) -&gt; ():OneGuGetting.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GuDetailMainVC.numberOfSectionsInTableView(UITableView) -&gt; Int:GuDetailMainVC.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

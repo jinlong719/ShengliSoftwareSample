@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HuShenMainVC.loadingScrollView() -&gt; ():HuShenMainVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.wasReceivedDetailedValues">
+            </PersistentString>
+            <PersistentString
+               value = "self.dataView.contentSize">
+            </PersistentString>
+            <PersistentString
+               value = "scrollingView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.dataView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "scrollingView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ZiXuanGuVC.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:ZiXuanGuVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

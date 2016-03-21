@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GuDetailMainViewController.gettingGuDataFromServer() -&gt; ():GuDetailMainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "midMultipleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TCPClient.(connectServer(TCPClient) -&gt; (timeout : Int) -&gt; ()).(closure #1):TCPClient.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self!.read(1024)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

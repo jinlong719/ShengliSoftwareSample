@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="sj9-f4-pET">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NIe-Ks-iyd">
+            <objects>
+                <viewController id="sj9-f4-pET" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L0s-6Z-B7f"/>
+                        <viewControllerLayoutGuide type="bottom" id="0CN-v9-u1J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qjd-5E-jbd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="OAc-IB-2QP">
+                                <rect key="frame" x="121" y="98" width="133" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="C19-U8-V42"/>
+                                    <constraint firstAttribute="height" constant="133" id="Sah-jV-dho"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="盛立金融" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tko-Sh-WyS">
+                                <rect key="frame" x="106" y="257" width="164" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="Pj2-Sz-j1X"/>
+                                    <constraint firstAttribute="height" constant="74" id="gN9-U2-qAh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright@2015 ShengliSoft.cn.All Right Reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Le-gf-nfF">
+                                <rect key="frame" x="17" y="608" width="343" height="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.4941176471" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Le-gf-nfF" secondAttribute="trailing" id="1NS-OC-4WS"/>
+                            <constraint firstItem="OAc-IB-2QP" firstAttribute="top" secondItem="L0s-6Z-B7f" secondAttribute="bottom" constant="78" id="2OO-OQ-wtR"/>
+                            <constraint firstItem="tko-Sh-WyS" firstAttribute="top" secondItem="OAc-IB-2QP" secondAttribute="bottom" constant="26" id="5op-ZK-DgY"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="9Le-gf-nfF" secondAttribute="leading" id="OKG-tr-AHn"/>
+                            <constraint firstItem="tko-Sh-WyS" firstAttribute="centerX" secondItem="Qjd-5E-jbd" secondAttribute="centerX" id="OqP-x7-yk1"/>
+                            <constraint firstItem="0CN-v9-u1J" firstAttribute="top" secondItem="9Le-gf-nfF" secondAttribute="bottom" constant="45" id="Tuk-Ra-qKq"/>
+                            <constraint firstItem="OAc-IB-2QP" firstAttribute="centerX" secondItem="Qjd-5E-jbd" secondAttribute="centerX" id="dOg-Rr-29v"/>
+                            <constraint firstItem="9Le-gf-nfF" firstAttribute="centerX" secondItem="Qjd-5E-jbd" secondAttribute="centerX" id="hVT-Af-0Za"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcH-fK-yzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30.5" y="336.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="44" height="44"/>
+    </resources>
+</document>

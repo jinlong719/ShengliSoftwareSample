@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6FA9981C7FF2B70088BDE8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6FA9971C7FF2B70088BDE8 /* Utilities.swift */; };
+		2F7917521C8BE72A00134E93 /* tcpSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7917511C8BE72A00134E93 /* tcpSocket.swift */; };
+		8418B9DC1BF8E24E00AFC55C /* QuoteListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418B9DB1BF8E24E00AFC55C /* QuoteListNews.swift */; };
+		8418B9E21BF90CF400AFC55C /* HuShenDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418B9E11BF90CF400AFC55C /* HuShenDataView.swift */; };
+		842C9DD61C075A0E00D0B554 /* GuDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C9DD51C075A0E00D0B554 /* GuDetailData.swift */; };
+		844C2F1C1BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C2F161BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.m */; };
+		844C2F1D1BEBF5BC00BBEC92 /* XCMultiSortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C2F181BEBF5BC00BBEC92 /* XCMultiSortTableView.m */; };
+		844C2F1E1BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C2F1A1BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.m */; };
+		844C2F211BEBF63600BBEC92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C2F201BEBF63600BBEC92 /* QuartzCore.framework */; };
+		844C2F231BEBF64400BBEC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C2F221BEBF64400BBEC92 /* Foundation.framework */; };
+		844C2F251BEBF64E00BBEC92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C2F241BEBF64E00BBEC92 /* UIKit.framework */; };
+		844C2F271BEBF65C00BBEC92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C2F261BEBF65C00BBEC92 /* CoreGraphics.framework */; };
+		844C2F2A1BEBF6B500BBEC92 /* HuShenGuDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C2F291BEBF6B500BBEC92 /* HuShenGuDetailVC.swift */; };
+		845106B31BFF967F007EBACC /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845106B21BFF967F007EBACC /* CAPSPageMenu.swift */; };
+		845DE7211BF2549E00EEC02D /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DE7201BF2549E00EEC02D /* detailView.swift */; };
+		845DE7251BF254B500EEC02D /* detailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845DE7241BF254B500EEC02D /* detailView.xib */; };
+		845DE72C1BF2B04F00EEC02D /* BigDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DE72A1BF2B04F00EEC02D /* BigDetailVC.swift */; };
+		845DE72D1BF2B04F00EEC02D /* BigDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845DE72B1BF2B04F00EEC02D /* BigDetailVC.xib */; };
+		845FA2821C077DEC00951B18 /* GuDetailDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FA2811C077DEC00951B18 /* GuDetailDataClass.swift */; };
+		84633D901BF3C77B0051EC5C /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 84633D8E1BF3C77B0051EC5C /* IPAddress.m */; };
+		84633DA51BF3CAAF0051EC5C /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633DA11BF3CAAF0051EC5C /* Socket.swift */; };
+		84633DA61BF3CAAF0051EC5C /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633DA21BF3CAAF0051EC5C /* TCPClient.swift */; };
+		84633DA71BF3CAAF0051EC5C /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633DA31BF3CAAF0051EC5C /* TCPServer.swift */; };
+		84633DA81BF3CAAF0051EC5C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 84633DA41BF3CAAF0051EC5C /* ytcpsocket.c */; };
+		846C87391C11016A0075EB79 /* TimeSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C87381C11016A0075EB79 /* TimeSaleView.swift */; };
+		846C873D1C1101A30075EB79 /* TimeSaleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846C873C1C1101A30075EB79 /* TimeSaleView.xib */; };
+		846F02D51BEA9238002066CA /* HuShenMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F02D41BEA9238002066CA /* HuShenMainVC.swift */; };
+		847A79891BF555E4004324CE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A79861BF555E4004324CE /* Enums.swift */; };
+		847A798A1BF555E4004324CE /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A79871BF555E4004324CE /* SignIn.swift */; };
+		847A798B1BF555E4004324CE /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A79881BF555E4004324CE /* SignUp.swift */; };
+		849322D11BF685D600A4F54F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849322D01BF685D600A4F54F /* UserModel.swift */; };
+		849322D71BF6A1AF00A4F54F /* OneGuGetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849322D61BF6A1AF00A4F54F /* OneGuGetting.swift */; };
+		8495AC031C10648B00415459 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495AC011C10648B00415459 /* Fabric.framework */; };
+		8495AC041C10648B00415459 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495AC021C10648B00415459 /* Crashlytics.framework */; };
+		84A3AA051BE8E35300D635C5 /* ZiXuanMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA041BE8E35300D635C5 /* ZiXuanMainViewController.swift */; };
+		84A3AA0F1BE8ED5600D635C5 /* ZiXuanGuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA0E1BE8ED5600D635C5 /* ZiXuanGuVC.swift */; };
+		84A3AA131BE90D4C00D635C5 /* HuGangTongMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA121BE90D4C00D635C5 /* HuGangTongMainVC.swift */; };
+		84A3AA151BE90D6400D635C5 /* GangGuMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA141BE90D6400D635C5 /* GangGuMainVC.swift */; };
+		84A3AA171BE90D7900D635C5 /* MeiGuMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA161BE90D7900D635C5 /* MeiGuMainVC.swift */; };
+		84A3AA1A1BE9493D00D635C5 /* HuShenTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3AA191BE9493D00D635C5 /* HuShenTVC.swift */; };
+		84A46F081C026BC800AF90BB /* GuPiaoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A46F071C026BC800AF90BB /* GuPiaoData.swift */; };
+		84A7B2E91C03926A00C1C359 /* HuShenTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7B2E81C03926A00C1C359 /* HuShenTableData.swift */; };
+		84A7B2ED1C03B0AF00C1C359 /* HuShenDetailValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7B2EC1C03B0AF00C1C359 /* HuShenDetailValue.swift */; };
+		84B99D821C0632E200B25CDD /* MultipleTableDataGetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B99D811C0632E200B25CDD /* MultipleTableDataGetting.swift */; };
+		84B99EE61C06633200B25CDD /* HuShenGuMultipleTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B99EE51C06633200B25CDD /* HuShenGuMultipleTableData.swift */; };
+		84C47E1E1BE382EE00C4DA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E1D1BE382EE00C4DA25 /* AppDelegate.swift */; };
+		84C47E231BE382EE00C4DA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C47E211BE382EE00C4DA25 /* Main.storyboard */; };
+		84C47E251BE382EE00C4DA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C47E241BE382EE00C4DA25 /* Assets.xcassets */; };
+		84C47E281BE382EE00C4DA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C47E261BE382EE00C4DA25 /* LaunchScreen.storyboard */; };
+		84C47E541BE3906400C4DA25 /* WoDeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E4B1BE3906400C4DA25 /* WoDeMainVC.swift */; };
+		84C47E551BE3906400C4DA25 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E4C1BE3906400C4DA25 /* LoginVC.swift */; };
+		84C47E561BE3906400C4DA25 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E4D1BE3906400C4DA25 /* SignUpVC.swift */; };
+		84C47E581BE3906400C4DA25 /* XiaoXiMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E4F1BE3906400C4DA25 /* XiaoXiMainVC.swift */; };
+		84C47E591BE3906400C4DA25 /* FaxianMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E501BE3906400C4DA25 /* FaxianMainVC.swift */; };
+		84C47E5A1BE3906400C4DA25 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E511BE3906400C4DA25 /* SplashVC.swift */; };
+		84C47E5B1BE3906400C4DA25 /* WodeGuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E521BE3906400C4DA25 /* WodeGuTVC.swift */; };
+		84C47E5C1BE3906400C4DA25 /* GuPiaoMuLuTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47E531BE3906400C4DA25 /* GuPiaoMuLuTableVC.swift */; };
+		84C7132A1C08AC87006BE4C1 /* TimeSaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C713291C08AC87006BE4C1 /* TimeSaleCell.swift */; };
+		84C9E87F1BF12C4B004820D4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C9E87A1BF12C36004820D4 /* Charts.framework */; };
+		84C9E8801BF12C4B004820D4 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84C9E87A1BF12C36004820D4 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84CAE42D1BE7D7860009BB6D /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAE42B1BE7D7860009BB6D /* FloatLabelTextField.swift */; };
+		84CAE42E1BE7D7860009BB6D /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAE42C1BE7D7860009BB6D /* FloatLabelTextView.swift */; };
+		84D71D8E1C0BA61C001CFDA1 /* ChartMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D71D8D1C0BA61C001CFDA1 /* ChartMainVC.swift */; };
+		9C718AA61C178E3000B3DBBD /* GuDetailMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C718AA51C178E3000B3DBBD /* GuDetailMainViewController.swift */; };
+		9CD9E4841C58126A000408EA /* HuShenHeaderDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD9E4831C58126A000408EA /* HuShenHeaderDataView.xib */; };
+		9CD9E4881C58127D000408EA /* HuShenHeaderDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9E4871C58127D000408EA /* HuShenHeaderDataView.swift */; };
+		9CEFF32C1C13929F0072E043 /* stockAddingDeleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFF32B1C13929F0072E043 /* stockAddingDeleting.swift */; };
+		C80CE1473F28375D31ADAFC6 /* Pods_ShengliSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3AB96A98E6B93F2D761101 /* Pods_ShengliSoft.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C9E8791BF12C36004820D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C9E8731BF12C36004820D4 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		84C9E87B1BF12C36004820D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C9E8731BF12C36004820D4 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		84C9E87D1BF12C36004820D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C9E8731BF12C36004820D4 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		84C9E8811BF12C4B004820D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C9E8731BF12C36004820D4 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84C9E8831BF12C4B004820D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84C9E8801BF12C4B004820D4 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F6FA9971C7FF2B70088BDE8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2F7917511C8BE72A00134E93 /* tcpSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tcpSocket.swift; sourceTree = "<group>"; };
+		441A1EB59FD5BCF7ACCEA333 /* Pods-ShengliSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengliSoft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShengliSoft/Pods-ShengliSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3AB96A98E6B93F2D761101 /* Pods_ShengliSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShengliSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418B9DB1BF8E24E00AFC55C /* QuoteListNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteListNews.swift; sourceTree = "<group>"; };
+		8418B9E11BF90CF400AFC55C /* HuShenDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenDataView.swift; sourceTree = "<group>"; };
+		842C9DD51C075A0E00D0B554 /* GuDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuDetailData.swift; sourceTree = "<group>"; };
+		844C2F141BEBF5BB00BBEC92 /* ShengliSoft-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShengliSoft-Bridging-Header.h"; sourceTree = "<group>"; };
+		844C2F151BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCMultiSortTableView.h"; sourceTree = "<group>"; };
+		844C2F161BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCMultiSortTableView.m"; sourceTree = "<group>"; };
+		844C2F171BEBF5BC00BBEC92 /* XCMultiSortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableView.h; sourceTree = "<group>"; };
+		844C2F181BEBF5BC00BBEC92 /* XCMultiSortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMultiSortTableView.m; sourceTree = "<group>"; };
+		844C2F191BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableViewBGScrollView.h; sourceTree = "<group>"; };
+		844C2F1A1BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMultiSortTableViewBGScrollView.m; sourceTree = "<group>"; };
+		844C2F1B1BEBF5BC00BBEC92 /* XCMultiSortTableViewDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMultiSortTableViewDefault.h; sourceTree = "<group>"; };
+		844C2F201BEBF63600BBEC92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		844C2F221BEBF64400BBEC92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		844C2F241BEBF64E00BBEC92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		844C2F261BEBF65C00BBEC92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		844C2F291BEBF6B500BBEC92 /* HuShenGuDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenGuDetailVC.swift; sourceTree = "<group>"; };
+		845106B21BFF967F007EBACC /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		845DE7201BF2549E00EEC02D /* detailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		845DE7241BF254B500EEC02D /* detailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailView.xib; sourceTree = "<group>"; };
+		845DE72A1BF2B04F00EEC02D /* BigDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigDetailVC.swift; sourceTree = "<group>"; };
+		845DE72B1BF2B04F00EEC02D /* BigDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigDetailVC.xib; sourceTree = "<group>"; };
+		845FA2811C077DEC00951B18 /* GuDetailDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuDetailDataClass.swift; sourceTree = "<group>"; };
+		84633D8D1BF3C77B0051EC5C /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		84633D8E1BF3C77B0051EC5C /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
+		84633D8F1BF3C77B0051EC5C /* Network-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Network-swift.h"; sourceTree = "<group>"; };
+		84633DA11BF3CAAF0051EC5C /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		84633DA21BF3CAAF0051EC5C /* TCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		84633DA31BF3CAAF0051EC5C /* TCPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPServer.swift; sourceTree = "<group>"; };
+		84633DA41BF3CAAF0051EC5C /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		846C87381C11016A0075EB79 /* TimeSaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSaleView.swift; sourceTree = "<group>"; };
+		846C873C1C1101A30075EB79 /* TimeSaleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeSaleView.xib; sourceTree = "<group>"; };
+		846F02D41BEA9238002066CA /* HuShenMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenMainVC.swift; sourceTree = "<group>"; };
+		847A79861BF555E4004324CE /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		847A79871BF555E4004324CE /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		847A79881BF555E4004324CE /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		849322D01BF685D600A4F54F /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		849322D61BF6A1AF00A4F54F /* OneGuGetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneGuGetting.swift; sourceTree = "<group>"; };
+		8495AC011C10648B00415459 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8495AC021C10648B00415459 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		84A3AA041BE8E35300D635C5 /* ZiXuanMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiXuanMainViewController.swift; sourceTree = "<group>"; };
+		84A3AA0E1BE8ED5600D635C5 /* ZiXuanGuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiXuanGuVC.swift; sourceTree = "<group>"; };
+		84A3AA121BE90D4C00D635C5 /* HuGangTongMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuGangTongMainVC.swift; sourceTree = "<group>"; };
+		84A3AA141BE90D6400D635C5 /* GangGuMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GangGuMainVC.swift; sourceTree = "<group>"; };
+		84A3AA161BE90D7900D635C5 /* MeiGuMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiGuMainVC.swift; sourceTree = "<group>"; };
+		84A3AA191BE9493D00D635C5 /* HuShenTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenTVC.swift; sourceTree = "<group>"; };
+		84A46F071C026BC800AF90BB /* GuPiaoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuPiaoData.swift; sourceTree = "<group>"; };
+		84A7B2E81C03926A00C1C359 /* HuShenTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenTableData.swift; sourceTree = "<group>"; };
+		84A7B2EC1C03B0AF00C1C359 /* HuShenDetailValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenDetailValue.swift; sourceTree = "<group>"; };
+		84B99D811C0632E200B25CDD /* MultipleTableDataGetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleTableDataGetting.swift; sourceTree = "<group>"; };
+		84B99EE51C06633200B25CDD /* HuShenGuMultipleTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenGuMultipleTableData.swift; sourceTree = "<group>"; };
+		84C47E1A1BE382EE00C4DA25 /* ShengliSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShengliSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C47E1D1BE382EE00C4DA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C47E221BE382EE00C4DA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C47E241BE382EE00C4DA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C47E271BE382EE00C4DA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C47E291BE382EE00C4DA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C47E321BE382EF00C4DA25 /* ShengliSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShengliSoftTests.swift; sourceTree = "<group>"; };
+		84C47E341BE382EF00C4DA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C47E3D1BE382EF00C4DA25 /* ShengliSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShengliSoftUITests.swift; sourceTree = "<group>"; };
+		84C47E3F1BE382EF00C4DA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C47E4B1BE3906400C4DA25 /* WoDeMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoDeMainVC.swift; sourceTree = "<group>"; };
+		84C47E4C1BE3906400C4DA25 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84C47E4D1BE3906400C4DA25 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		84C47E4F1BE3906400C4DA25 /* XiaoXiMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XiaoXiMainVC.swift; sourceTree = "<group>"; };
+		84C47E501BE3906400C4DA25 /* FaxianMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaxianMainVC.swift; sourceTree = "<group>"; };
+		84C47E511BE3906400C4DA25 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		84C47E521BE3906400C4DA25 /* WodeGuTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WodeGuTVC.swift; sourceTree = "<group>"; };
+		84C47E531BE3906400C4DA25 /* GuPiaoMuLuTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuPiaoMuLuTableVC.swift; sourceTree = "<group>"; };
+		84C713291C08AC87006BE4C1 /* TimeSaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSaleCell.swift; sourceTree = "<group>"; };
+		84C9E8731BF12C36004820D4 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		84CAE42B1BE7D7860009BB6D /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		84CAE42C1BE7D7860009BB6D /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		84D71D8D1C0BA61C001CFDA1 /* ChartMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartMainVC.swift; sourceTree = "<group>"; };
+		9C718AA51C178E3000B3DBBD /* GuDetailMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuDetailMainViewController.swift; sourceTree = "<group>"; };
+		9CD9E4831C58126A000408EA /* HuShenHeaderDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuShenHeaderDataView.xib; sourceTree = "<group>"; };
+		9CD9E4871C58127D000408EA /* HuShenHeaderDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuShenHeaderDataView.swift; sourceTree = "<group>"; };
+		9CEFF32B1C13929F0072E043 /* stockAddingDeleting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stockAddingDeleting.swift; sourceTree = "<group>"; };
+		B4BF45AC326CFA77381960B5 /* Pods-ShengliSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengliSoft.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShengliSoft/Pods-ShengliSoft.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C47E171BE382EE00C4DA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C2F271BEBF65C00BBEC92 /* CoreGraphics.framework in Frameworks */,
+				844C2F251BEBF64E00BBEC92 /* UIKit.framework in Frameworks */,
+				84C9E87F1BF12C4B004820D4 /* Charts.framework in Frameworks */,
+				844C2F231BEBF64400BBEC92 /* Foundation.framework in Frameworks */,
+				844C2F211BEBF63600BBEC92 /* QuartzCore.framework in Frameworks */,
+				8495AC031C10648B00415459 /* Fabric.framework in Frameworks */,
+				8495AC041C10648B00415459 /* Crashlytics.framework in Frameworks */,
+				C80CE1473F28375D31ADAFC6 /* Pods_ShengliSoft.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E2886DFE5632EFDA62D66F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				441A1EB59FD5BCF7ACCEA333 /* Pods-ShengliSoft.debug.xcconfig */,
+				B4BF45AC326CFA77381960B5 /* Pods-ShengliSoft.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844C2F1F1BEBF5E400BBEC92 /* MutiColumnTableViewSDK */ = {
+			isa = PBXGroup;
+			children = (
+				844C2F151BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.h */,
+				844C2F161BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.m */,
+				844C2F171BEBF5BC00BBEC92 /* XCMultiSortTableView.h */,
+				844C2F181BEBF5BC00BBEC92 /* XCMultiSortTableView.m */,
+				844C2F191BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.h */,
+				844C2F1A1BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.m */,
+				844C2F1B1BEBF5BC00BBEC92 /* XCMultiSortTableViewDefault.h */,
+			);
+			name = MutiColumnTableViewSDK;
+			sourceTree = "<group>";
+		};
+		844C2F281BEBF66C00BBEC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8495AC011C10648B00415459 /* Fabric.framework */,
+				8495AC021C10648B00415459 /* Crashlytics.framework */,
+				844C2F261BEBF65C00BBEC92 /* CoreGraphics.framework */,
+				844C2F241BEBF64E00BBEC92 /* UIKit.framework */,
+				844C2F221BEBF64400BBEC92 /* Foundation.framework */,
+				844C2F201BEBF63600BBEC92 /* QuartzCore.framework */,
+				4F3AB96A98E6B93F2D761101 /* Pods_ShengliSoft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A3AA181BE90DB700D635C5 /* Baojia Tab */ = {
+			isa = PBXGroup;
+			children = (
+				844C2F1F1BEBF5E400BBEC92 /* MutiColumnTableViewSDK */,
+				84A3AA041BE8E35300D635C5 /* ZiXuanMainViewController.swift */,
+				84A3AA0E1BE8ED5600D635C5 /* ZiXuanGuVC.swift */,
+				9CEFF32B1C13929F0072E043 /* stockAddingDeleting.swift */,
+				84C47E521BE3906400C4DA25 /* WodeGuTVC.swift */,
+				846F02D41BEA9238002066CA /* HuShenMainVC.swift */,
+				84A7B2EC1C03B0AF00C1C359 /* HuShenDetailValue.swift */,
+				8418B9E11BF90CF400AFC55C /* HuShenDataView.swift */,
+				84A7B2E81C03926A00C1C359 /* HuShenTableData.swift */,
+				84A3AA191BE9493D00D635C5 /* HuShenTVC.swift */,
+				84A3AA121BE90D4C00D635C5 /* HuGangTongMainVC.swift */,
+				844C2F291BEBF6B500BBEC92 /* HuShenGuDetailVC.swift */,
+				9C718AA51C178E3000B3DBBD /* GuDetailMainViewController.swift */,
+				84A3AA141BE90D6400D635C5 /* GangGuMainVC.swift */,
+				84A3AA161BE90D7900D635C5 /* MeiGuMainVC.swift */,
+				842C9DD51C075A0E00D0B554 /* GuDetailData.swift */,
+				845FA2811C077DEC00951B18 /* GuDetailDataClass.swift */,
+				84D71D8D1C0BA61C001CFDA1 /* ChartMainVC.swift */,
+				845DE7201BF2549E00EEC02D /* detailView.swift */,
+				845DE7241BF254B500EEC02D /* detailView.xib */,
+				9CD9E4831C58126A000408EA /* HuShenHeaderDataView.xib */,
+				9CD9E4871C58127D000408EA /* HuShenHeaderDataView.swift */,
+				845DE72A1BF2B04F00EEC02D /* BigDetailVC.swift */,
+				845DE72B1BF2B04F00EEC02D /* BigDetailVC.xib */,
+				849322D01BF685D600A4F54F /* UserModel.swift */,
+				849322D61BF6A1AF00A4F54F /* OneGuGetting.swift */,
+				8418B9DB1BF8E24E00AFC55C /* QuoteListNews.swift */,
+				84A46F071C026BC800AF90BB /* GuPiaoData.swift */,
+				84B99D811C0632E200B25CDD /* MultipleTableDataGetting.swift */,
+				84B99EE51C06633200B25CDD /* HuShenGuMultipleTableData.swift */,
+				84C713291C08AC87006BE4C1 /* TimeSaleCell.swift */,
+				846C87381C11016A0075EB79 /* TimeSaleView.swift */,
+				846C873C1C1101A30075EB79 /* TimeSaleView.xib */,
+			);
+			name = "Baojia Tab";
+			sourceTree = "<group>";
+		};
+		84C47E111BE382EE00C4DA25 = {
+			isa = PBXGroup;
+			children = (
+				84C9E8731BF12C36004820D4 /* Charts.xcodeproj */,
+				844C2F281BEBF66C00BBEC92 /* Frameworks */,
+				84C47E1C1BE382EE00C4DA25 /* ShengliSoft */,
+				84C47E311BE382EF00C4DA25 /* ShengliSoftTests */,
+				84C47E3C1BE382EF00C4DA25 /* ShengliSoftUITests */,
+				84C47E1B1BE382EE00C4DA25 /* Products */,
+				24E2886DFE5632EFDA62D66F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84C47E1B1BE382EE00C4DA25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C47E1A1BE382EE00C4DA25 /* ShengliSoft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C47E1C1BE382EE00C4DA25 /* ShengliSoft */ = {
+			isa = PBXGroup;
+			children = (
+				84633D8D1BF3C77B0051EC5C /* IPAddress.h */,
+				84633D8E1BF3C77B0051EC5C /* IPAddress.m */,
+				84633D8F1BF3C77B0051EC5C /* Network-swift.h */,
+				84633DA11BF3CAAF0051EC5C /* Socket.swift */,
+				84633DA21BF3CAAF0051EC5C /* TCPClient.swift */,
+				84633DA31BF3CAAF0051EC5C /* TCPServer.swift */,
+				84633DA41BF3CAAF0051EC5C /* ytcpsocket.c */,
+				84CAE42B1BE7D7860009BB6D /* FloatLabelTextField.swift */,
+				84CAE42C1BE7D7860009BB6D /* FloatLabelTextView.swift */,
+				84C47E5D1BE3D28600C4DA25 /* Controller */,
+				84CAE42A1BE7BC6C0009BB6D /* Views */,
+				84C47E291BE382EE00C4DA25 /* Info.plist */,
+				2F6FA9971C7FF2B70088BDE8 /* Utilities.swift */,
+				2F7917511C8BE72A00134E93 /* tcpSocket.swift */,
+			);
+			path = ShengliSoft;
+			sourceTree = "<group>";
+		};
+		84C47E311BE382EF00C4DA25 /* ShengliSoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C47E321BE382EF00C4DA25 /* ShengliSoftTests.swift */,
+				84C47E341BE382EF00C4DA25 /* Info.plist */,
+			);
+			path = ShengliSoftTests;
+			sourceTree = "<group>";
+		};
+		84C47E3C1BE382EF00C4DA25 /* ShengliSoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C47E3D1BE382EF00C4DA25 /* ShengliSoftUITests.swift */,
+				84C47E3F1BE382EF00C4DA25 /* Info.plist */,
+			);
+			path = ShengliSoftUITests;
+			sourceTree = "<group>";
+		};
+		84C47E5D1BE3D28600C4DA25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847A79861BF555E4004324CE /* Enums.swift */,
+				847A79871BF555E4004324CE /* SignIn.swift */,
+				847A79881BF555E4004324CE /* SignUp.swift */,
+				845106B21BFF967F007EBACC /* CAPSPageMenu.swift */,
+				84C47E1D1BE382EE00C4DA25 /* AppDelegate.swift */,
+				84C47E511BE3906400C4DA25 /* SplashVC.swift */,
+				84C47E4C1BE3906400C4DA25 /* LoginVC.swift */,
+				84C47E4D1BE3906400C4DA25 /* SignUpVC.swift */,
+				84C47E4F1BE3906400C4DA25 /* XiaoXiMainVC.swift */,
+				84C47E501BE3906400C4DA25 /* FaxianMainVC.swift */,
+				84C47E4B1BE3906400C4DA25 /* WoDeMainVC.swift */,
+				84C47E531BE3906400C4DA25 /* GuPiaoMuLuTableVC.swift */,
+				84A3AA181BE90DB700D635C5 /* Baojia Tab */,
+				844C2F141BEBF5BB00BBEC92 /* ShengliSoft-Bridging-Header.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84C9E8741BF12C36004820D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C9E87A1BF12C36004820D4 /* Charts.framework */,
+				84C9E87C1BF12C36004820D4 /* Charts.framework */,
+				84C9E87E1BF12C36004820D4 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CAE42A1BE7BC6C0009BB6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84C47E211BE382EE00C4DA25 /* Main.storyboard */,
+				84C47E241BE382EE00C4DA25 /* Assets.xcassets */,
+				84C47E261BE382EE00C4DA25 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C47E191BE382EE00C4DA25 /* ShengliSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C47E421BE382EF00C4DA25 /* Build configuration list for PBXNativeTarget "ShengliSoft" */;
+			buildPhases = (
+				2AD8EC48C1B6834308681440 /* Check Pods Manifest.lock */,
+				84C47E161BE382EE00C4DA25 /* Sources */,
+				84C47E171BE382EE00C4DA25 /* Frameworks */,
+				84C47E181BE382EE00C4DA25 /* Resources */,
+				84C9E8831BF12C4B004820D4 /* Embed Frameworks */,
+				8495ABFE1C10642B00415459 /* ShellScript */,
+				BAE62AF83C16C4E3C1DEEBDF /* Embed Pods Frameworks */,
+				A7BE84BA9D3BA3BC22B2B667 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C9E8821BF12C4B004820D4 /* PBXTargetDependency */,
+			);
+			name = ShengliSoft;
+			productName = ShengliSoft;
+			productReference = 84C47E1A1BE382EE00C4DA25 /* ShengliSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C47E121BE382EE00C4DA25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iCloudTest;
+				TargetAttributes = {
+					84C47E191BE382EE00C4DA25 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZC8U4H656Z;
+					};
+				};
+			};
+			buildConfigurationList = 84C47E151BE382EE00C4DA25 /* Build configuration list for PBXProject "ShengliSoft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C47E111BE382EE00C4DA25;
+			productRefGroup = 84C47E1B1BE382EE00C4DA25 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84C9E8741BF12C36004820D4 /* Products */;
+					ProjectRef = 84C9E8731BF12C36004820D4 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84C47E191BE382EE00C4DA25 /* ShengliSoft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84C9E87A1BF12C36004820D4 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 84C9E8791BF12C36004820D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C9E87C1BF12C36004820D4 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 84C9E87B1BF12C36004820D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C9E87E1BF12C36004820D4 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 84C9E87D1BF12C36004820D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C47E181BE382EE00C4DA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C873D1C1101A30075EB79 /* TimeSaleView.xib in Resources */,
+				84C47E281BE382EE00C4DA25 /* LaunchScreen.storyboard in Resources */,
+				9CD9E4841C58126A000408EA /* HuShenHeaderDataView.xib in Resources */,
+				845DE7251BF254B500EEC02D /* detailView.xib in Resources */,
+				845DE72D1BF2B04F00EEC02D /* BigDetailVC.xib in Resources */,
+				84C47E251BE382EE00C4DA25 /* Assets.xcassets in Resources */,
+				84C47E231BE382EE00C4DA25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AD8EC48C1B6834308681440 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8495ABFE1C10642B00415459 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 419d0104339670e08dc81e947ce916ec4abaf1b7 2d7edc8349069fd0ec8f10b9eb7d6d72ddf27c0a6731b325c09eb896698c3b64";
+		};
+		A7BE84BA9D3BA3BC22B2B667 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShengliSoft/Pods-ShengliSoft-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE62AF83C16C4E3C1DEEBDF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShengliSoft/Pods-ShengliSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C47E161BE382EE00C4DA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3AA151BE90D6400D635C5 /* GangGuMainVC.swift in Sources */,
+				844C2F1D1BEBF5BC00BBEC92 /* XCMultiSortTableView.m in Sources */,
+				84A3AA0F1BE8ED5600D635C5 /* ZiXuanGuVC.swift in Sources */,
+				845DE7211BF2549E00EEC02D /* detailView.swift in Sources */,
+				8418B9E21BF90CF400AFC55C /* HuShenDataView.swift in Sources */,
+				84A46F081C026BC800AF90BB /* GuPiaoData.swift in Sources */,
+				84C47E591BE3906400C4DA25 /* FaxianMainVC.swift in Sources */,
+				84633DA81BF3CAAF0051EC5C /* ytcpsocket.c in Sources */,
+				9C718AA61C178E3000B3DBBD /* GuDetailMainViewController.swift in Sources */,
+				84CAE42E1BE7D7860009BB6D /* FloatLabelTextView.swift in Sources */,
+				84A3AA051BE8E35300D635C5 /* ZiXuanMainViewController.swift in Sources */,
+				84A7B2E91C03926A00C1C359 /* HuShenTableData.swift in Sources */,
+				847A79891BF555E4004324CE /* Enums.swift in Sources */,
+				84D71D8E1C0BA61C001CFDA1 /* ChartMainVC.swift in Sources */,
+				8418B9DC1BF8E24E00AFC55C /* QuoteListNews.swift in Sources */,
+				84CAE42D1BE7D7860009BB6D /* FloatLabelTextField.swift in Sources */,
+				84A3AA171BE90D7900D635C5 /* MeiGuMainVC.swift in Sources */,
+				84C7132A1C08AC87006BE4C1 /* TimeSaleCell.swift in Sources */,
+				2F7917521C8BE72A00134E93 /* tcpSocket.swift in Sources */,
+				84B99D821C0632E200B25CDD /* MultipleTableDataGetting.swift in Sources */,
+				84C47E541BE3906400C4DA25 /* WoDeMainVC.swift in Sources */,
+				847A798B1BF555E4004324CE /* SignUp.swift in Sources */,
+				842C9DD61C075A0E00D0B554 /* GuDetailData.swift in Sources */,
+				844C2F2A1BEBF6B500BBEC92 /* HuShenGuDetailVC.swift in Sources */,
+				845DE72C1BF2B04F00EEC02D /* BigDetailVC.swift in Sources */,
+				9CEFF32C1C13929F0072E043 /* stockAddingDeleting.swift in Sources */,
+				9CD9E4881C58127D000408EA /* HuShenHeaderDataView.swift in Sources */,
+				84C47E551BE3906400C4DA25 /* LoginVC.swift in Sources */,
+				2F6FA9981C7FF2B70088BDE8 /* Utilities.swift in Sources */,
+				84633DA71BF3CAAF0051EC5C /* TCPServer.swift in Sources */,
+				845106B31BFF967F007EBACC /* CAPSPageMenu.swift in Sources */,
+				847A798A1BF555E4004324CE /* SignIn.swift in Sources */,
+				84C47E561BE3906400C4DA25 /* SignUpVC.swift in Sources */,
+				84633D901BF3C77B0051EC5C /* IPAddress.m in Sources */,
+				846C87391C11016A0075EB79 /* TimeSaleView.swift in Sources */,
+				84A7B2ED1C03B0AF00C1C359 /* HuShenDetailValue.swift in Sources */,
+				846F02D51BEA9238002066CA /* HuShenMainVC.swift in Sources */,
+				84C47E5B1BE3906400C4DA25 /* WodeGuTVC.swift in Sources */,
+				84C47E1E1BE382EE00C4DA25 /* AppDelegate.swift in Sources */,
+				84A3AA131BE90D4C00D635C5 /* HuGangTongMainVC.swift in Sources */,
+				84B99EE61C06633200B25CDD /* HuShenGuMultipleTableData.swift in Sources */,
+				84A3AA1A1BE9493D00D635C5 /* HuShenTVC.swift in Sources */,
+				84C47E581BE3906400C4DA25 /* XiaoXiMainVC.swift in Sources */,
+				845FA2821C077DEC00951B18 /* GuDetailDataClass.swift in Sources */,
+				849322D71BF6A1AF00A4F54F /* OneGuGetting.swift in Sources */,
+				84C47E5C1BE3906400C4DA25 /* GuPiaoMuLuTableVC.swift in Sources */,
+				84633DA51BF3CAAF0051EC5C /* Socket.swift in Sources */,
+				84633DA61BF3CAAF0051EC5C /* TCPClient.swift in Sources */,
+				844C2F1E1BEBF5BC00BBEC92 /* XCMultiSortTableViewBGScrollView.m in Sources */,
+				84C47E5A1BE3906400C4DA25 /* SplashVC.swift in Sources */,
+				849322D11BF685D600A4F54F /* UserModel.swift in Sources */,
+				844C2F1C1BEBF5BC00BBEC92 /* UIView+XCMultiSortTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C9E8821BF12C4B004820D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 84C9E8811BF12C4B004820D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C47E211BE382EE00C4DA25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C47E221BE382EE00C4DA25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C47E261BE382EE00C4DA25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C47E271BE382EE00C4DA25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C47E401BE382EF00C4DA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C47E411BE382EF00C4DA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C47E431BE382EF00C4DA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441A1EB59FD5BCF7ACCEA333 /* Pods-ShengliSoft.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ShengliSoft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCloudTest.ShengliSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShengliSoft/ShengliSoft-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C47E441BE382EF00C4DA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BF45AC326CFA77381960B5 /* Pods-ShengliSoft.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ShengliSoft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCloudTest.ShengliSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShengliSoft/ShengliSoft-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C47E151BE382EE00C4DA25 /* Build configuration list for PBXProject "ShengliSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C47E401BE382EF00C4DA25 /* Debug */,
+				84C47E411BE382EF00C4DA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C47E421BE382EF00C4DA25 /* Build configuration list for PBXNativeTarget "ShengliSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C47E431BE382EF00C4DA25 /* Debug */,
+				84C47E441BE382EF00C4DA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C47E121BE382EE00C4DA25 /* Project object */;
+}
