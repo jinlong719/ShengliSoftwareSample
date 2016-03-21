@@ -48,12 +48,14 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
         archivedData.appendBytes(oneGu.reserved, length: 5)
         return archivedData
     }
-    //Outgoing messages to server
+    //TimeSale data messages to server
     struct reqTimeSaleData {
-        var msgType: UInt8 //110, 111, 109
+        var msgType: UInt8 //111
         var sessionID: String
         var secType: UInt8
         var exgType: UInt8
+        var timePos: Int16
+        var timeNum: Int16
         var symbol: String
         var reserved: String
     }
@@ -63,10 +65,12 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
         var lenSec: Int16
         var lenExg: Int16
         var lenSym: Int16
+        var lenPos: Int16
+        var lenNum: Int16
         var lenRes: Int16
     }
-    func timeSaleToNSData(var oneGu: GuSumData) -> NSData{
-        var archivedOneGuReq = lenOneGuSumData(lenMsg: 1, lensID: 32, lenSec: 1, lenExg: 1, lenSym: 32, lenRes: 5)
+    func timeSaleToNSData(var oneGu: reqTimeSaleData) -> NSData{
+        var archivedOneGuReq = lenTimeSaleData(lenMsg: 1, lensID: 32, lenSec: 1, lenExg: 1, lenSym: 32, lenPos: 8, lenNum: 8, lenRes: 5)
         let metaData = NSData(bytes: &archivedOneGuReq, length: 0)
         let archivedData = NSMutableData(data: metaData)
         archivedData.appendBytes(&oneGu.msgType, length: 1)
@@ -74,6 +78,8 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
         archivedData.appendBytes(&oneGu.secType, length: 1)
         archivedData.appendBytes(&oneGu.exgType, length: 1)
         archivedData.appendBytes(oneGu.symbol, length: 32)
+        archivedData.appendBytes(&oneGu.timePos, length: 8)
+        archivedData.appendBytes(&oneGu.timeNum, length: 8)
         archivedData.appendBytes(oneGu.reserved, length: 5)
         return archivedData
     }
@@ -928,8 +934,10 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
     var stateOfReceived: String!
     var selectedIndex: Int = 0
     var guCountry: String!
-    
     var numOfTimeSale: Int!
+    //TimeSale Data request
+    var timeSalePos: Int16!
+    var timeSaleNum: Int16!
     
     //K-chart data
     var candleType: Int!
@@ -953,6 +961,19 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
 //        }
         switch self.msgType
         {
+        case 111:// TimeSale data request
+            let reqTimeSale = reqTimeSaleData(
+                  msgType: self.msgType,
+                sessionID: sessionIDD,
+                  secType: self.securityType,
+                  exgType: 0,
+                  timePos: self.timeSalePos,
+                  timeNum: self.timeSaleNum,
+                   symbol: self.symName,
+                 reserved: ""
+            )
+            let sendData = self.timeSaleToNSData(reqTimeSale)
+            self.sendSocket(self.msgType, sendData: sendData)
         case 112:// k-chart data
             let guDetailedData: reqKchartData = reqKchartData(
                 msgType: self.msgType,
@@ -968,12 +989,6 @@ class GuDetailData: NSObject, TCPClientDelegate, GCDAsyncSocketDelegate {
             
             let sendData = self.toReqNSData(guDetailedData)
             self.sendSocket(self.msgType, sendData: sendData)
-//            self.client = TCPClient(addr: SERVER_IP, port: SERVER_PORT)
-//            self.client.delegate = self
-//            self.client.connectServer(timeout: 10000)
-//            self.client.send(data: sendData)
-            
-//            print("GuDetail: \(self.msgType): \(sendData.length)")
         default: // Summary, Time Sale, LEV2 data
             let guDetailedData: GuSumData = GuSumData(
                 msgType: self.msgType,
